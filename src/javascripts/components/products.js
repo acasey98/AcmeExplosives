@@ -9,8 +9,10 @@ const writeProducts = (products) /* should accept 'finalProductsArray' from init
     domString += '<div class="col-3">';
     domString += `<div id='${product.id}' class="card p-2">`;
     domString += '<div class="card-body">';
-    // domString += `<h5 class="card-title">${}</h5>`;
-    // domString += `<button class="btn btn-warning see-pins">${} Pins</button>`;
+    domString += `<h5 class="card-title">${product.name}</h5>`;
+    domString += `<h5 class="card-title">Category: ${product.categoryName}</h5>`;
+    domString += `<h5 class="card-title">Type: ${product.typeName}</h5>`;
+    domString += `<h5 class="card-title">${product.description}</h5>`;
     domString += '</div>';
     domString += '</div>';
     domString += '</div>';
@@ -22,14 +24,9 @@ const initProducts = () => {
   categoriesData.getCategories()
     .then(resp => typesData.addTypeCategory(resp.data.categories))
   /* resp.data.categories is categoryData parameter for typesData.addTypeCategory */
-    .then((typesWithCategories) => {
-      productsData.addProductTypeNameAndCategoryName(typesWithCategories);
-    })
-    .then((finalProductsArray) => {
-      // console.error(finalProductsArray);
-      writeProducts(finalProductsArray);
-    })
-    .catch(err => console.error('error from initTypes requests', err));
+    .then(resp => productsData.addProductTypeNameAndCategoryName(resp))
+    .then(resp => writeProducts(resp))
+    .catch(err => console.error('error from initProducts requests', err));
 };
 
 export default { initProducts };
