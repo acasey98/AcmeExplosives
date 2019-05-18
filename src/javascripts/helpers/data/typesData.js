@@ -12,14 +12,6 @@ const addTypeCategory = categoryData => new Promise((resolve, reject) => {
         newType.categoryName = categoryName;
         return newType;
       });
-      // typesWithCategoryFireworks = types.filter(type => type.category === categoryData[0].id);
-      // const typesWithCategoryDemo = types.filter(type => type.category === categoryData[1].id);
-      // typesWithCategoryFireworks.forEach((currentType) => {
-      //   currentType.categoryName = categoryData[0].name;
-      // });
-      // console.error(typesWithCategoryFireworks);
-      // typesWithCategoryDemo.categoryName = categoryData[1].name;
-      // const typesWithCategories = typesWithCategoryFireworks.concat(typesWithCategoryDemo);
       resolve(typesWithCategories);
     })
     .catch(err => reject(err));
