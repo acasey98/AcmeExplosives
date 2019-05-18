@@ -1,0 +1,40 @@
+{
+  "types": [
+      {
+          "id": "type0",
+          "category": "category0",
+          "name": "personal",
+          "description": "Fireworks intended for recreational use during holiday celebrations"
+      },
+      {
+        "id": "type1",
+        "category": "category0",
+        "name": "restricted",
+        "description": "Fireworks intended for recreational use by adults 18+"
+      },
+      {
+        "id": "type2",
+        "category": "category0",
+        "name": "premium",
+        "description": "Fireworks intended for use in shows by professionals"
+      },
+      {
+        "id": "type3",
+        "category": "category1",
+        "name": "Low yield",
+        "description": "Explosives with low yield intended for small, controlled demolition"
+    },
+    {
+      "id": "type4",
+      "category": "category1",
+      "name": "High yield",
+      "description": "Explosives with high yield intended for less deliberate demolition"
+    },
+    {
+      "id": "type5",
+      "category": "category1",
+      "name": "Blasting yield",
+      "description": "Explosives with very high yield that are intended for use in rock blasting and more"
+    }  
+  ]
+}

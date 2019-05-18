@@ -1,0 +1,147 @@
+{
+  "products": [{
+      "fairy_sparklers": {
+          "id": "product0",
+          "type": "type0",
+          "name": "Fairy Sparklers",
+          "description": "Multi-colored sparklers that are safe for any age."
+      }
+    },
+    {
+      "smoke_bomb": {
+          "id": "product1",
+          "type": "type0",
+          "name": "Smoke Bomb",
+          "description": "Smoke Bomb that expels colored smoke when lit"
+        }
+      },
+      {
+      "snake": {
+        "id": "product2",
+        "type": "type0",
+        "name": "Snake",
+        "description": "A device that grows a snake-like cylinder when lit"
+      }
+      },
+    {
+      "bottle_rocket": {
+        "id": "product3",
+        "type": "type1",
+        "name": "Bottle Rocket",
+        "description": "A small firework meant to be lit and set in a glass bottle"
+      }
+    },
+    {
+    "roman_candle": {
+      "id": "product4",
+      "type": "type1",
+      "name": "Roman Candle",
+      "description": "A tube that fires many flaming projectiles shortly after ignition"
+    }
+  },
+  {
+  "tube_rocket": {
+    "id": "product5",
+    "type": "type1",
+    "name": "Tube Rocket",
+    "description": "A tube that fires a firework into the sky shortly after it is lit"
+  }
+},
+{
+"the_bobcat": {
+  "id": "product6",
+  "type": "type2",
+  "name": "The Bobcat",
+  "description": "A box of multiple tube rockets that rapidly fire off"
+}
+},
+{
+"firebird": {
+  "id": "product7",
+  "type": "type2",
+  "name": "Firebird",
+  "description": "A firework that is packed with slivers of magnesium"
+}
+},
+{
+"fat_albert": {
+  "id": "product8",
+  "type": "type2",
+  "name": "Fat Albert",
+  "description": "A massive firework that is extremely loud and bright"
+}
+},
+{
+"mini_boom": {
+  "id": "product9",
+  "type": "type3",
+  "name": "Mini Boom",
+  "description": "Used to demolish thin, non-loadbearing structures"
+}
+},
+{
+"little_bang": {
+  "id": "product10",
+  "type": "type3",
+  "name": "Little Bang",
+  "description": "Used to demolish whatever you want"
+}
+},
+{
+"small_pow": {
+"id": "product11",
+"type": "type3",
+"name": "Small Pow",
+"description": "Blow up your neighbor's dog or somethign idc"
+}
+},
+{
+"meaty_kaboom": {
+"id": "product12",
+"type": "type4",
+"name": "Meaty Kaboom",
+"description": "For blowing up small sheds"
+}
+},
+{
+"hefty_kabang": {
+"id": "product13",
+"type": "type4",
+"name": "Hefty Kabang",
+"description": "For demolishing loadbearing pillars"
+}
+},
+{
+"juicy_kapow": {
+"id": "product14",
+"type": "type4",
+"name": "Juicy Kapow",
+"description": "For seizing the means of production"
+}
+},
+{
+"fatass_larry": {
+"id": "product15",
+"type": "type5",
+"name": "Fatass Larry",
+"description": "For leveling large buildings"
+}
+},
+{
+"h_f_b": {
+"id": "product16",
+"type": "type5",
+"name": "H.F.B.",
+"description": "Illegal in 47 states"
+}
+},
+{
+"literal_hydrogen_bomb": {
+"id": "product17",
+"type": "type5",
+"name": "Literal Hydrogen Bomb",
+"description": "why do you need this"
+}
+}
+  ]
+}
