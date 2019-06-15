@@ -3,6 +3,7 @@ import axios from 'axios';
 const addProductTypeNameAndCategoryName = newTypes => new Promise((resolve, reject) => {
   axios.get('../db/products.json')
     .then((resp) => {
+      console.error(newTypes);
       const { products } = resp.data;
       const productsWithCatAndType = products.map((product) => {
         const productVal = Object.values(product);
@@ -16,6 +17,7 @@ const addProductTypeNameAndCategoryName = newTypes => new Promise((resolve, reje
         newProduct.typeName = typeName;
         return newProduct;
       });
+      console.error(productsWithCatAndType);
       resolve(productsWithCatAndType);
     })
     .catch(err => reject(err));
